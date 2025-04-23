@@ -1,0 +1,44 @@
+cat > Pets.txt
+cat Pets.txt
+cat > Pack_animals.txt
+cat Pack_animals.txt
+cat Pets.txt Pack_animals.txt > Human_friends.txt
+cat Human_friends.txt
+cat > Pets.txt
+cat > Pack_animals.txt
+cat Pets.txt
+cat Pack_animals.txt
+cat Pets.txt Pack_animals.txt > Human_friends.txt
+cat Human_friends.txt
+mv Human_friends.txt Human_Friends.txt
+cat Human_friends.txt
+cat Human_Friends.txt
+ls
+ls -l
+ls -i
+ls -1
+mkdir Pitomnik
+mv Human_Friends.txt Pitomnik/
+ls Pitomnik
+sudo apt install mysql-server -y
+sudo mysql
+mysql version
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
+sudo apt update
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys B7B3B788A8D3785C
+sudo apt update
+sudo apt install mysql-server
+sudo apt clean
+sudo apt update
+sudo apt upgrade
+sudo apt --fix-broken install
+sudo apt install mysql-server
+sudo systemctl status mysql
+mysql
+sudo mysql
+mysql --version
+dpkg -l | grep mysql-apt-config
+sudo dpkg -r mysql-apt-config
+sudo mysql
+exit
