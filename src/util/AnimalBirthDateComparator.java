@@ -1,3 +1,5 @@
+package util;
+import model.Animal;
 import java.util.Comparator;
 
 public class AnimalBirthDateComparator implements Comparator<Animal> {
